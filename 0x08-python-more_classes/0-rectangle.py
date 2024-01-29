@@ -1,14 +1,11 @@
 #!/usr/bin/python3
 
-"""
-A Rectangle class definition
 
-TODO:
-    empty
-"""
+
+
+"""Defines a Rectangle class."""
 
 
 class Rectangle:
-    """An empty rectangle class"""
+    """Represent a rectangle."""
     pass
-
