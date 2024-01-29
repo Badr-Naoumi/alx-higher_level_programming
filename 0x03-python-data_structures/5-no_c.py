@@ -1,11 +1,8 @@
 #!/usr/bin/python3
 
-
-
 def no_c(my_string):
-    """Remove all characters 'c' and 'C' from a string."""
-    result = ''
-    for char in my_string:
-        if char != 'c' and char != 'C':
-            result += char
-    return result
+    new = ''
+    for i in range(len(my_string)):
+        if my_string[i].lower() != 'c':
+            new += my_string[i]
+    return new
